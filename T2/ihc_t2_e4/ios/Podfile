@@ -12,6 +12,8 @@ target 'ihc_t2_e4' do
     :hermes_enabled => false
   )
 
+  pod 'RNSensors', :path => '../node_modules/react-native-sensors'
+
   target 'ihc_t2_e4Tests' do
     inherit! :complete
     # Pods for testing
